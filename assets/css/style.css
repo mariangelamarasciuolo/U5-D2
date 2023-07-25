@@ -46,9 +46,9 @@ header {
   header {
     text-align: left;
     position: fixed;
-    width: 73.2em;
+    width: 65em;
     z-index: 2;
-  
+
   }
 
   header .brand,
@@ -58,7 +58,7 @@ header {
   }
 
   header .brand {
-    width: 75%;
+    width: 67%;
   }
 
   header .brand img {
@@ -68,6 +68,7 @@ header {
   header .brand p {
     margin-bottom: 0;
   }
+ 
 }
 
 header nav ul {
@@ -129,7 +130,7 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-main{
+main {
   margin-top: 7em;
 }
 
@@ -194,6 +195,7 @@ h1+p {
 @media screen and (min-width: 1200px) {
   body {
     line-height: 2;
+    padding-inline: 5em;
   }
 
   section {
@@ -206,12 +208,15 @@ h1 {
   position: relative;
   z-index: 1;
 }
+h1 span{
+ position: relative;
+}
 
-h1 img {
+h1 span img {
   position: absolute;
-  width: 46%;
-  right: 131px;
-  top: 61px;
+  width: 8.8em;
+  right: 0px;
+  bottom: -13px;
   z-index: 0;
 }
 
@@ -259,10 +264,11 @@ iframe {
   margin-bottom: 2em;
   border-radius: 20px;
 }
-.novità { 
+
+.novità {
   position: relative;
   width: 6em;
-  bottom:2em
+  bottom: 2em
 }
 
 @media screen and (min-width: 1200px) {
@@ -278,10 +284,11 @@ iframe {
   iframe {
     height: 267px;
   }
-  .novità { 
+
+  .novità {
     position: relative;
     width: 6em;
-    bottom:2em
+    bottom: 2em
   }
 }
 
@@ -426,6 +433,52 @@ footer a {
     margin-left: auto;
     margin-right: auto;
   }
+  .icon1{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    top:144px;
+    text-align: center;
+    padding-top: 10px;background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 7px;
+  }
+  .icon1 i {
+    font-size: 30px;
+    color: #253ba0;
+  }
+  .icon2{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    top:214px;
+    text-align: center;
+    padding-top: 10px;background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 7px;
+  }
+  .icon2 i {
+    font-size: 30px;
+    color: #253ba0;
+  }
+  .icontop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    bottom: 25px;
+    text-align: center;
+    padding-top: 10px;background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 7px;
+  }
+  .icontop i {
+    font-size: 30px;
+    color: #a02571;
+  }
+
 }
 
 @media print {
